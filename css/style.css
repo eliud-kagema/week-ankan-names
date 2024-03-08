@@ -6,3 +6,18 @@ body {
     transition: background-color 0.5s ease;
   
 }
+
+
+
+
+
+/* Adding Responsiveness on a mobile device */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 2em 0; 
+    }
+  
+    .container {
+        padding: 10px; 
+    }
+  }
