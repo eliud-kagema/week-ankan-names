@@ -10,11 +10,32 @@ header {
   
   }
 
-body {
+  body {
     background-color: #f8f9fa;
     color: #343a40;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.display-6 {
+    font-size: 1.5em;
+}
 
 .alert-secondary {
     background-color: #e9ecef;
@@ -22,6 +43,33 @@ body {
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.form-control {
+    border-color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 
