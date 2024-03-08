@@ -44,15 +44,4 @@ header {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  
-  
-/* Adding Responsiveness on a mobile device */
-@media only screen and (max-width: 600px) {
-    section {
-        padding: 2em 0; 
-    }
-  
-    .container {
-        padding: 10px; 
-    }
-  }
+
