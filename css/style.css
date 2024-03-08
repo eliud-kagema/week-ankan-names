@@ -10,7 +10,20 @@ header {
   
   }
 
-  
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+
+.alert-secondary {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 
 .span-col {
 	color: #35b5ff;
