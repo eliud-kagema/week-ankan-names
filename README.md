@@ -1,7 +1,7 @@
 # Ankan Names Generator
 
 ## Project Summary
-Within this repository, you'll find a JavaScript, HTML and CSS project that calculates a users birthday and calculates the day of the week they were born and checks on the gender to determine their Ankan Name
+Within this repository, you'll find a JavaScript, HTML and CSS project that picks a user birthday  and calculates the day of the week they were born and checks on the gender to determine their Ankan Name
 
 
 ## Live Site
@@ -15,7 +15,7 @@ The project is structured as follows:
 
 - **index.html:** Main HTML file for the application.
 - **style.css:** Main CSS file for styling.
-- **script.js:** JavaScript file for submition and validation of Contact Form.
+- **script.js:** JavaScript file for checking user birthday  and calculates the day of the week they were born and checks on the gender to determine their Ankan Name
 
 ## Usage
 
