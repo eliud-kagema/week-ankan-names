@@ -11,6 +11,8 @@ $(document).ready(function() {
     });
 });
 
+
+// function to calculate of Ankan name based on selected DOB
 function calculateAkanName() {
     const birthday = new Date($('#datepicker').val());
     const gender = $('#gender').val();
