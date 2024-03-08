@@ -7,10 +7,25 @@ body {
   
 }
 
+/* Header CSS */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+  }
 
 
+  .span-col {
+	color: #ffbf35;
+}
 
 
+  
 /* Adding Responsiveness on a mobile device */
 @media only screen and (max-width: 600px) {
     section {
