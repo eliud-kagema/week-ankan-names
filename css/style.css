@@ -21,10 +21,30 @@ header {
 
 
   .span-col {
-	color: #ffbf35;
+	color: #35b5ff;
 }
 
 
+.ankanNames{
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.image-section {
+    flex: 1; 
+    padding: 20px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
   
 /* Adding Responsiveness on a mobile device */
 @media only screen and (max-width: 600px) {

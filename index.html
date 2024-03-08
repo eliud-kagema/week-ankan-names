@@ -8,10 +8,50 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
+<body>
     <div class="container">
         <header>
-            <h2>Ankan <span class="span-col"> Name Generator</span></h2>
+            <h2>Ankan Names<span class="span-col">  Generator</span></h2>
         </header>
-
     </div>
+
+    <!-- Contact Section -->
+    <div class="container">
+        <section id="ankanNames" class="ankanNames">
+            <div class="split-container">
+                <!-- Image Section -->
+                <div class="image-section">
+                    <img src="images/contact.jpg" alt="Your Image" />
+                </div>
+    
+                <!-- Form Section -->
+                <div class="form-section">
+                    <h2>Contact Me</h2>
+                    <form id="contactForm" action="#" method="post" onsubmit="return validateAndSubmit()">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+    
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+      <!-- End Contact Section -->
+      <!-- Footer -->
+      <div class="container">
+         <footer>
+            <p>&copy; 2024 Eliud Kagema. All rights reserved.</p>
+         </footer>
+      </div>
+      <!-- End Footer -->
+
+    </body>
+
 </html>
