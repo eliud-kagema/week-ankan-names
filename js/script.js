@@ -1,3 +1,18 @@
+
+functionMaleNames(dayOfTheWeek) {
+    const maleName = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+    return maleName [dayOfTheWeek];
+
+}
+
+
+functionMaleNames(dayOfTheWeek) { 
+    const femaleName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+    return femaleName [dayOfTheWeek];
+
+}
+
+
 function getDayOfTheWeek(dayOfTheWeek){
     switch (dayOfTheWeek){
         case 0:
